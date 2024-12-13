@@ -1,0 +1,198 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/alsa-x64-linux-1.2.13-da837601-3725-4c1a-a863-0891e1baa7f6",
+  "name": "alsa:x64-linux@1.2.13 f027166d7192ed559e3bf45d04dc8f31b452b12696dd18264f2f414eccfe43a6",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-11-12-eb492805e92a2c14a230f5c3deb3e89f6771c321"
+    ],
+    "created": "2024-12-13T14:36:05Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-4"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-5"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-4",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-5",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "alsa",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.2.13",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@5dd0d76c964da48ce085c9a66ad00463c0607916",
+      "homepage": "https://www.alsa-project.org/",
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "The Advanced Linux Sound Architecture (ALSA) - library",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "alsa:x64-linux",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "f027166d7192ed559e3bf45d04dc8f31b452b12696dd18264f2f414eccfe43a6",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "alsa-project/alsa-lib",
+      "downloadLocation": "git+https://github.com/alsa-project/alsa-lib@v1.2.13",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "ae21380c75ab2f318b14d42b1f06e35d2a80b377fe0a12177e7f5c926b189bb242037891e3e7d780d77376e57d6f074abe5701eecd55035ff0498bdbca55e42a"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//home/infcomplex/.cache/vcpkg/registries/git-trees/5dd0d76c964da48ce085c9a66ad00463c0607916/usage",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1719174d07393120aa8fda433093045ac157ed95fef0be7b6ebae5b165d67603"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/infcomplex/.cache/vcpkg/registries/git-trees/5dd0d76c964da48ce085c9a66ad00463c0607916/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "367ee8fda8161535d4dd62d42fc9b22f86348c37c716c7ab6d3de8f81237690f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/infcomplex/.cache/vcpkg/registries/git-trees/5dd0d76c964da48ce085c9a66ad00463c0607916/libdl.diff",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c6a17771f407b7cad28b67ace902b236519a3d4c115b7bdf0e36921c0d4efd4a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/infcomplex/.cache/vcpkg/registries/git-trees/5dd0d76c964da48ce085c9a66ad00463c0607916/fix-plugin-dir.patch",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bb144db7d9a5171d6539df510dbfd0958509b6d3132040fd102a014dfe2607c9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/infcomplex/.cache/vcpkg/registries/git-trees/5dd0d76c964da48ce085c9a66ad00463c0607916/portfile.cmake",
+      "SPDXID": "SPDXRef-file-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a31571367fae776867f62356128d7d90ce62f736e7a234442819d7ba31c5adb6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/infcomplex/.cache/vcpkg/registries/git-trees/5dd0d76c964da48ce085c9a66ad00463c0607916/vcpkg-cmake-wrapper.cmake",
+      "SPDXID": "SPDXRef-file-5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d62b612ac0b45ca7ec61114d7571575f8b6d583b99c240f11ba498b50d065075"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
