@@ -8,6 +8,21 @@
 
 using namespace std;
 
+bool hostIsOn(string address)
+{
+    string ping = "ping -c1 -s1 " + address;
+    char arr[ping.length() + 1];
+    strcpy(arr, ping.c_str());
+    if (system(arr) == 0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
 bool portIsOpen(const string& address, int port)
 {
     sf::TcpSocket socket;
@@ -139,7 +154,7 @@ int main()
     for (int x = 0; x < addresslist.size(); x++)
     {
         cout << "Scanning host " << addresslist[x] << '\n';
-        if (system())
+        if (hostIsOn(addresslist[x])) //find a nice way to ping, maybe fix
         {
             for (int h = 0; h < portslist.size(); h++)
             {
@@ -153,6 +168,10 @@ int main()
                     cout << "CLOSED\n";
                 }
             }
+        }
+        else
+        {
+            cout << "Host is down, skipping.";
         }
     }
      
